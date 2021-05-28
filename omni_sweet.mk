@@ -30,6 +30,9 @@ PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
     android.hardware.fastboot@1.0-impl-mock.recovery
 
+# Inherit device configuration
+$(call inherit-product, device/xiaomi/sweet/device.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sweet
 PRODUCT_NAME := omni_sweet
