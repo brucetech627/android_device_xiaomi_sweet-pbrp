@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_surya",
+    name: "libinit_sweet",
     include_dirs: [
         "system/core/base/include",
         "system/core/init",
@@ -7,6 +7,6 @@ cc_library_static {
     cflags: [
         "-Wall",
     ],
-    srcs: ["init_surya.cpp"],
+    srcs: ["init_sweet.cpp"],
     recovery_available: true,
 }

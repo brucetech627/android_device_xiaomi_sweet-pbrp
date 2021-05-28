@@ -76,10 +76,10 @@ void vendor_load_properties() {
     const std::string region = GetProperty("ro.boot.hwc", "");
 
 	if (region == "INDIA") {
-            model_property_override("karna", "POCO X3");
+            model_property_override("sweetin", "Redmi Note 10 Pro");
 	    }
 	else if (region == "CN") {
-            model_property_override("surya", "POCO X3 NFC");
+            model_property_override("sweet", "Redmi Note 10 Pro");
     	  }
 }
 
