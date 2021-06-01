@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/qcom/opensource/commonsys-intf/display
+
 PRODUCT_PACKAGES += \
     qcom_decrypt \
     qcom_decrypt_fbe
